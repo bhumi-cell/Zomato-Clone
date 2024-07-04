@@ -1,0 +1,118 @@
+body{
+    background-color: black;
+}
+.color{
+    background-color: white;
+    height: 450px;
+    width: 400px;
+    align-items: center;
+    margin-left: 34%;
+    margin-top: 7%;
+    border-radius: 5px;
+}
+.margin{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    margin-top: 0;
+    height: 70px;
+}
+.margin>div>h1{
+    /* border: 1px solid black; */
+    margin-top: 2%;
+}
+#space{
+    margin-right: 72%;
+}
+#msgbox{
+    border: none;
+    background-color: white;
+    font-size: 1.7em;
+    margin-top: 6%;
+    font-weight: bold;
+}
+#msgbox:hover{
+    background-color: red;
+}
+.name{
+    display: flex;
+    border: 1px solid rgb(194, 188, 188);
+    height: 37px;
+    width: 362px;
+    margin-left: 4%;
+    margin-top: 10%;
+    border-radius: 5px;
+}
+.name>select{
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+    border-right: 1px solid rgb(206, 200, 200);    
+    margin-top: 2%;
+    height: 25px;
+}
+.name>input{
+    border: none;
+    margin-left: 5%;
+}
+#Phone{
+    width: 20%;
+}
+#colour{
+    border: 1px solid red;
+    background-color: rgb(245, 87, 87);
+    color: white;
+    text-align: center;
+    height: 27px;
+    width: 362px;
+    margin-left: 4%;
+    margin-top: 5%;
+    border-radius: 5px;
+    padding-top: 10px;
+}
+#colour:hover{
+    background-color: rgb(251, 61, 61);
+}
+#marq{
+    text-align: center;
+    font-size: 1.5em;
+    color: rgb(88, 86, 86);
+    margin-top: 2%;
+}
+#colour2{
+    border: 1px solid rgb(179, 176, 176);
+    text-align: center;
+    color: rgb(133, 130, 130);
+    height: 27px;
+    width: 362px;
+    margin-left: 4%;
+    margin-top: 6%;
+    border-radius: 5px;
+    padding-top: 5px;
+}
+#colour2>a{
+    color: rgb(133, 130, 130);
+}
+#colour3{
+    border: 1px solid rgb(179, 176, 176);
+    text-align: center;
+    color: rgb(133, 130, 130);
+    height: 27px;
+    width: 362px;
+    margin-left: 4%;
+    margin-top: 6%;
+    border-radius: 5px;
+    padding-top: 5px;
+}
+.spaceing{
+    margin-top: 9%;
+    margin-left: 1%;
+    color: rgb(136, 135, 135);
+    font-size: 1em;
+}
+#spaceing{
+    color: rgb(247, 107, 107);
+}
+#spaceing>a{
+    color: rgb(247, 107, 107);
+}

@@ -1,0 +1,85 @@
+body{
+    background-color: black;
+}
+.color{
+    background-color: white;
+    height: 350px;
+    width: 360px;
+    align-items: center;
+    margin-left: 34%;
+    margin-top: 12%;
+    border-radius: 5px;
+}
+.margin{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    margin-top: 0;
+    height: 70px;
+}
+.margin>div>h1{
+    /* border: 1px solid black; */
+    margin-top: 2%;
+}
+#space{
+    margin-left: 2%;
+    margin-right: 68%;
+    margin-top: 1%;
+}
+#msgbox{
+    border: none;
+    background-color: white;
+    height: 45%;
+    width: auto;
+    font-size: 1.7em;
+    margin-top: 2%;
+    font-weight: bold;
+}
+#msgbox:hover{
+    background-color: red;
+}
+#adjust{
+    align-items: center;
+}
+
+#image{
+    height: 148px;
+    width: 145px;
+    margin-left: 34%;
+    margin-top: -10%;
+}
+#colour3{
+    border: 1px solid rgb(179, 176, 176);
+    text-align: left;
+    color: rgb(133, 130, 130);
+    height: 37px;
+    width: 332px;
+    margin-left: 4%;
+    margin-top: 6%;
+    border-radius: 5px;
+    padding-top: 5px;
+}
+#colour{
+    border: 1px solid red;
+    background-color: rgb(245, 87, 87);
+    color: white;
+    text-align: center;
+    height: 27px;
+    width: 332px;
+    margin-left: 4%;
+    margin-top: 5%;
+    border-radius: 5px;
+    padding-top: 10px;
+}
+#colour:hover{
+    background-color: rgb(251, 61, 61);
+}
+.spaceing{
+    margin-top: 5%;
+    margin-left: 4%;
+    color: rgb(136, 135, 135);
+    font-size: 1em;
+}
+#spaceing>a{
+    color: rgb(247, 107, 107);
+}
